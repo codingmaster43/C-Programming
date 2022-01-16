@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int num;
+
+    printf("Enter the Choice : ");
+    scanf("%d", num);
+
+    switch (num)
+    {
+        case 0:
+        	printf("You know 0 ");
+            break;
+
+        case 1:
+            printf("You know 1 ");
+            break;
+
+        default:
+            printf("Entered numbe isn’t in the list");
+            break;
+    }
+
+    return 0;
+}
